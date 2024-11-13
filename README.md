@@ -12,6 +12,14 @@ This project addresses the challenge of early and accurate breast cancer detecti
 - **High Accuracy**: Achieved a final validation accuracy of 98% after retraining with synthetic data.
 - **Healthcare Impact**: Demonstrates the potential of AI and synthetic data to assist healthcare professionals in making more accurate diagnoses.
 
+## Setup
+- Clone the repository
+```git clone https://github.com/Shankar-1212/hackthn.git```
+- Install dependencies
+```pip install -r requirements.txt```
+- Run the application
+```python app.py```
+
 ## Technologies Used
 - **Stable Diffusion**: For generating synthetic mammogram images.
 - **CNN for Image Classification**: To classify breast images as healthy or containing lesions.
